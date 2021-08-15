@@ -1,0 +1,29 @@
+html {
+  font-size: 62.5%; // 1rem = 10px
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+// 1440px, 1170px
+.wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.container {
+  margin: 0 auto;
+  max-width: 1210px;
+  padding: 0 2rem;
+}
